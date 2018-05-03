@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MvcForum.Web</RootNamespace>
     <AssemblyName>MvcForum.Web</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <FileUpgradeFlags>
@@ -660,7 +660,6 @@
     <Content Include="Installer\ru-RU.csv" />
     <None Include="Installer\en-US.csv" />
     <Content Include="Installer\ManualSql\manualVersionOneSevenToOneEight.sql" />
-    <Content Include="Notes.txt" />
     <Content Include="Scripts\badges.js" />
     <Content Include="Scripts\bbeditor\emoticons\alien.png" />
     <Content Include="Scripts\bbeditor\emoticons\angel.png" />
@@ -1489,6 +1488,7 @@
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <PropertyGroup>
